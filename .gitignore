@@ -4,3 +4,4 @@ obj/
 
 *.log
 secrets.json
+*.suo
