@@ -36,7 +36,7 @@
           "url": "http://localhost:9004/api/joke"
         }
       ]
-    }
+    },
     {
       "name": "calculator",
       "intents": [
