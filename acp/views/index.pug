@@ -1,0 +1,26 @@
+﻿extends layout
+
+block content
+  h1= title 
+  p Here you can easily configure the ports and address for the snips-app-collection
+
+  h2 Main components
+  p Intent-Listener 
+  button#startIntentListener Start
+
+  p Dashboard
+  button#startDashboard Start
+
+  h2 Installed Apps
+  each val in appNames
+    label.strong= val.name
+    |
+    |
+    label Port:
+    |
+    |
+    input(type='text', name='port', value=val.port maxlength=5 size=3) 
+    |
+    |
+    button#startappName Start
+    p
